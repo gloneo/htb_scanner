@@ -1,5 +1,5 @@
 # htb_scanner
-A very simple Hack the Box scanner to automate firsts enumerations.
+This Python script automates common reconnaissance tasks for Hack The Box (HTB) targets, combining several popular tools for network and web scanning.
 
 # Installation
 Use requirements.txt file to install dpendencies.
