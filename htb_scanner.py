@@ -1,5 +1,6 @@
 import subprocess
 import argparse
+import pyfiglet
 from rich import print
 from rich.console import Console
 from prompt_toolkit import prompt
@@ -70,6 +71,8 @@ def choose_step():
             print("[bold red]Invalid option. Please try again.[/bold red]")
 
 def main_menu():
+    banner = pyfiglet.figlet_format("HTB Scanner", font="slant")
+    print(f"[bold green]{banner}[/bold green]")
     while True:
         print("\n[bold blue]=== MAIN MENU ===[/bold blue]")
         print("1. Automated scan")
