@@ -24,4 +24,5 @@ Run the script without any arguments to access an interactive menu that lets you
 - Perform a full automated scan
 - Select individual scan steps to run
 - Provide target and wordlists interactively
+
 Just run: "python scanner.py"
